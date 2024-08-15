@@ -1,0 +1,43 @@
+.meus_interesses {
+  margin-top: 85px;
+  text-align: center;
+  color: #413d3d;
+}
+
+.hobbies {
+  background-color: rgb(255, 255, 255);
+}
+
+.just_it {
+  max-width: 95vw;
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+  padding: 3vh 6vw 3vh 6vw;
+}
+
+.hobbies.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pratice {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2vh 0 1vh 0;
+}
+
+.pratice li {
+  margin: 0 6vh;
+}
+
+.minhas_habilidades {
+  text-align: center;
+  margin-top: 5%;
+  color: #413d3d;
+  width: 75%;
+}

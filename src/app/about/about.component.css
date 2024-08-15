@@ -1,0 +1,111 @@
+/*<---------- responsividade do cartão main ------------>*/
+@media screen and (max-width: 888px) {
+  #about {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+  }
+
+  #about img {
+    margin-bottom: 50%;
+    width: 40%;
+  }
+
+  .list-group li {
+    display: flex;
+    margin-left: -85%;
+    margin-top: -1%;
+  }
+
+  .about .badge {
+    margin-right: 65%;
+    margin-top: -5%;
+  }
+  .about hr {
+    width: 95%;
+  }
+}
+/*<---------- fim da responsividade do cartão main ------------>*/
+
+.about {
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+}
+
+.about hr {
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+
+.about img {
+  width: 45%;
+  margin: 0 6vw 0 0;
+}
+
+.about-text {
+  width: 100%;
+  height: 90%;
+}
+
+.main {
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3vh 6vw 3vh 6vw;
+}
+
+.list-group h5 {
+  font-size: 85%;
+  margin: 0;
+  text-transform: capitalize;
+  margin-bottom: 8%;
+}
+
+.list-group li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8vh 0 0.8vh;
+  font-size: 115%;
+}
+
+.about .badge {
+  font-size: 85%;
+  text-align: right;
+  color: rgb(0, 0, 0);
+}
+
+.under-text {
+  background-color: #3d4451;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2vh 0 1vh 0;
+}
+
+.social li {
+  margin: 0 1vw;
+}
+
+.social a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #00f0f0;
+}
+
+.intro {
+  margin-top: 5%;
+  color: #413d3d;
+  text-align: center;
+}
